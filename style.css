@@ -1,11 +1,39 @@
 /* CSS files add styling rules to your content */
 
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
-
 h1 {
   font-style: italic;
   color: #373fff;
 }
+header{
+  background-color: yellow;
+}
+section{
+  background-color: blue;
+}
+main{
+  background-color: red;
+      margin-left: 30%;
+}
+nav{
+  background-color: orange;
+      float: left;
+    width: 30%;
+}
+article{
+  background-color: darkgray;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+
+
