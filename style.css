@@ -1,9 +1,9 @@
 /* CSS files add styling rules to your content */
 
 *{
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 40px;
+  padding: 80px;
+  border: 30px;
 }
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -14,7 +14,11 @@ h1 {
   color: #373fff;
 }
 header{
-  background-color: yellow;
+   background-color: pink;
+   padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
 }
 section{
   background-color: blue;
@@ -25,15 +29,26 @@ main{
 }
 nav{
   background-color: orange;
-      float: left;
+  float: left;
     width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
 }
 article{
-  background-color: darkgray;
+  
+  float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
 }
 footer{
-  background-color: black;
-  color: white;
+  
+  background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
 
 
